@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "driver_id": 1,
+    "name": "main",
+    "created_at": "2024-11-08T10:20:30Z"
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "driver_id": 2,
+    "name": "analytics",
+    "created_at": "2024-11-08T10:22:15Z"
+  },
+  {
+    "id": 3,
+    "user_id": 3,
+    "driver_id": 3,
+    "name": "sales",
+    "created_at": "2024-11-08T10:24:45Z"
+  },
+  {
+    "id": 4,
+    "user_id": 4,
+    "driver_id": 4,
+    "name": "userdata",
+    "created_at": "2024-11-08T10:26:05Z"
+  },
+  {
+    "id": 5,
+    "user_id": 5,
+    "driver_id": 1,
+    "name": "inventory",
+    "created_at": "2024-11-08T10:27:30Z"
+  },
+  {
+    "id": 6,
+    "user_id": 2,
+    "driver_id": 2,
+    "name": "products",
+    "created_at": "2024-11-08T10:29:10Z"
+  },
+  {
+    "id": 7,
+    "user_id": 3,
+    "driver_id": 3,
+    "name": "customers",
+    "created_at": "2024-11-08T10:31:45Z"
+  },
+  {
+    "id": 8,
+    "user_id": 1,
+    "driver_id": 4,
+    "name": "orders",
+    "created_at": "2024-11-08T10:33:25Z"
+  },
+  {
+    "id": 9,
+    "user_id": 2,
+    "driver_id": 1,
+    "name": "reports",
+    "created_at": "2024-11-08T10:35:50Z"
+  },
+  {
+    "id": 10,
+    "user_id": 5,
+    "driver_id": 2,
+    "name": "metrics",
+    "created_at": "2024-11-08T10:37:15Z"
+  }
+]

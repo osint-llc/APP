@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "key": "APP_NAME",
+    "value": "MyApplication"
+  },
+  {
+    "id": 2,
+    "key": "APP_ENV",
+    "value": "production"
+  },
+  {
+    "id": 3,
+    "key": "APP_KEY",
+    "value": "base64:random_generated_key_here"
+  },
+  {
+    "id": 4,
+    "key": "DB_HOST",
+    "value": "127.0.0.1"
+  },
+  {
+    "id": 5,
+    "key": "DB_PORT",
+    "value": "3306"
+  },
+  {
+    "id": 6,
+    "key": "DB_DATABASE",
+    "value": "database_name"
+  },
+  {
+    "id": 7,
+    "key": "DB_USERNAME",
+    "value": "db_user"
+  },
+  {
+    "id": 8,
+    "key": "DB_PASSWORD",
+    "value": "db_password"
+  },
+  {
+    "id": 9,
+    "key": "CACHE_DRIVER",
+    "value": "redis"
+  },
+  {
+    "id": 10,
+    "key": "SESSION_LIFETIME",
+    "value": "120"
+  }
+]

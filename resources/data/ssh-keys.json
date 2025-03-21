@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "work-server-key",
+    "type": "ssh-rsa",
+    "key": "AAAAB3NzaC1yc2EAAAABIwAAAQEArandomtextworkserverkeyexample"
+  },
+  {
+    "id": 2,
+    "name": "personal-laptop-key",
+    "type": "ssh-ed25519",
+    "key": "AAAAC3NzaC1lZDI1NTE5AAAAIrandomtextpersonallaptopkeyexample"
+  },
+  {
+    "id": 3,
+    "name": "dev-environment-key",
+    "type": "ssh-rsa",
+    "key": "AAAAB3NzaC1yc2EAAAABIwAAAQEArandomtextdevenvkeyexample"
+  },
+  {
+    "id": 4,
+    "name": "project-key",
+    "type": "ecdsa-sha2-nistp256",
+    "key": "AAAAC3NzaC1lZDI1NTE5AAAArandomtextprojectkeyexample"
+  },
+  {
+    "id": 5,
+    "name": "backup-server-key",
+    "type": "ssh-ed25519",
+    "key": "AAAAC3NzaC1lZDI1NTE5AAAAIrandomtextbackupserverkeyexample"
+  }
+]

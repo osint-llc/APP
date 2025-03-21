@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "PHP 8.4",
+    "status": "installed",
+    "default_cli": true,
+    "patch": "available"
+  },
+  {
+    "id": 2,
+    "name": "PHP 8.3",
+    "status": "not_installed",
+    "default_cli": false,
+    "patch": "not_available"
+  },
+  {
+    "id": 3,
+    "name": "PHP 8.2",
+    "status": "installed",
+    "default_cli": false,
+    "patch": "available"
+  },
+  {
+    "id": 4,
+    "name": "PHP 8.1",
+    "status": "not_installed",
+    "default_cli": false,
+    "patch": "not_available"
+  },
+  {
+    "id": 5,
+    "name": "PHP 8.0",
+    "status": "not_installed",
+    "default_cli": false,
+    "patch": "not_available"
+  },
+  {
+    "id": 6,
+    "name": "PHP 7.4",
+    "status": "installed",
+    "default_cli": false,
+    "patch": "available"
+  },
+  {
+    "id": 7,
+    "name": "PHP 7.3",
+    "status": "not_installed",
+    "default_cli": false,
+    "patch": "not_available"
+  },
+  {
+    "id": 8,
+    "name": "PHP 7.2",
+    "status": "installed",
+    "default_cli": false,
+    "patch": "not_available"
+  },
+  {
+    "id": 9,
+    "name": "PHP 7.1",
+    "status": "installed",
+    "default_cli": false,
+    "patch": "available"
+  },
+  {
+    "id": 10,
+    "name": "PHP 7.0",
+    "status": "not_installed",
+    "default_cli": false,
+    "patch": "not_available"
+  },
+  {
+    "id": 11,
+    "name": "PHP 5.6",
+    "status": "not_installed",
+    "default_cli": false,
+    "patch": "not_available"
+  }
+]

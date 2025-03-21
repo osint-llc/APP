@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Daily Backup",
+    "command": "/usr/local/bin/backup.sh",
+    "frequency": "daily",
+    "cron": "0 2 * * *",
+    "user": "root",
+    "next_run": "2024-11-12T02:00:00Z",
+    "created_at": "2024-11-01T10:00:00Z",
+    "updated_at": "2024-11-10T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Log Cleanup",
+    "command": "/usr/local/bin/cleanup_logs.sh",
+    "frequency": "weekly",
+    "cron": "0 3 * * 0",
+    "user": "admin",
+    "next_run": "2024-11-17T03:00:00Z",
+    "created_at": "2024-11-01T11:00:00Z",
+    "updated_at": "2024-11-10T11:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "System Update",
+    "command": "/usr/local/bin/update_system.sh",
+    "frequency": "monthly",
+    "cron": "0 4 1 * *",
+    "user": "sysadmin",
+    "next_run": "2024-12-01T04:00:00Z",
+    "created_at": "2024-11-01T12:00:00Z",
+    "updated_at": "2024-11-10T12:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Database Optimization",
+    "command": "/usr/local/bin/optimize_db.sh",
+    "frequency": "hourly",
+    "cron": "0 * * * *",
+    "user": "dbadmin",
+    "next_run": "2024-11-11T14:00:00Z",
+    "created_at": "2024-11-01T13:00:00Z",
+    "updated_at": "2024-11-10T13:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "File Sync",
+    "command": "/usr/local/bin/sync_files.sh",
+    "frequency": "every 6 hours",
+    "cron": "0 */6 * * *",
+    "user": "syncuser",
+    "next_run": "2024-11-11T18:00:00Z",
+    "created_at": "2024-11-01T14:00:00Z",
+    "updated_at": "2024-11-10T14:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Cache Clear",
+    "command": "/usr/local/bin/clear_cache.sh",
+    "frequency": "every 12 hours",
+    "cron": "0 */12 * * *",
+    "user": "cacheadmin",
+    "next_run": "2024-11-12T00:00:00Z",
+    "created_at": "2024-11-01T15:00:00Z",
+    "updated_at": "2024-11-10T15:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Traffic Monitor",
+    "command": "/usr/local/bin/monitor_traffic.sh",
+    "frequency": "every 15 minutes",
+    "cron": "*/15 * * * *",
+    "user": "networkadmin",
+    "next_run": "2024-11-11T13:15:00Z",
+    "created_at": "2024-11-01T16:00:00Z",
+    "updated_at": "2024-11-10T16:00:00Z"
+  }
+]

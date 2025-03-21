@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "when": "2024-11-07T14:23:00Z",
+    "initiated_by": "Alice Johnson",
+    "branch": "main",
+    "commit": "d4f3a2c",
+    "duration": "3m 45s",
+    "status": "success",
+    "current": true
+  },
+  {
+    "id": 2,
+    "when": "2024-11-07T15:12:00Z",
+    "initiated_by": "Bob Smith",
+    "branch": "feature/login",
+    "commit": "a1b2c3d",
+    "duration": "5m 30s",
+    "status": "failure",
+    "current": false
+  },
+  {
+    "id": 3,
+    "when": "2024-11-07T16:05:00Z",
+    "initiated_by": "Charlie Adams",
+    "branch": "develop",
+    "commit": "e7f8g9h",
+    "duration": "2m 10s",
+    "status": "success",
+    "current": false
+  },
+  {
+    "id": 4,
+    "when": "2024-11-07T16:30:00Z",
+    "initiated_by": "Dana Lee",
+    "branch": "hotfix",
+    "commit": "i1j2k3l",
+    "duration": "6m 20s",
+    "status": "in_progress",
+    "current": false
+  },
+  {
+    "id": 5,
+    "when": "2024-11-07T17:00:00Z",
+    "initiated_by": "Evan Grant",
+    "branch": "main",
+    "commit": "m4n5o6p",
+    "duration": "4m 50s",
+    "status": "success",
+    "current": false
+  },
+  {
+    "id": 6,
+    "when": "2024-11-07T17:30:00Z",
+    "initiated_by": "Fiona Clark",
+    "branch": "feature/signup",
+    "commit": "q7r8s9t",
+    "duration": "3m 20s",
+    "status": "success",
+    "current": false
+  },
+  {
+    "id": 7,
+    "when": "2024-11-07T18:05:00Z",
+    "initiated_by": "George King",
+    "branch": "main",
+    "commit": "u1v2w3x",
+    "duration": "7m 40s",
+    "status": "failure",
+    "current": false
+  },
+  {
+    "id": 8,
+    "when": "2024-11-07T18:30:00Z",
+    "initiated_by": "Hannah White",
+    "branch": "hotfix",
+    "commit": "y4z5a6b",
+    "duration": "6m 55s",
+    "status": "in_progress",
+    "current": false
+  },
+  {
+    "id": 9,
+    "when": "2024-11-07T19:15:00Z",
+    "initiated_by": "Ian Black",
+    "branch": "develop",
+    "commit": "c7d8e9f",
+    "duration": "4m 15s",
+    "status": "success",
+    "current": false
+  },
+  {
+    "id": 10,
+    "when": "2024-11-07T19:45:00Z",
+    "initiated_by": "Jenny Stone",
+    "branch": "feature/dashboard",
+    "commit": "g1h2i3j",
+    "duration": "5m 00s",
+    "status": "success",
+    "current": false
+  }
+]

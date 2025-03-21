@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "vendor": "Swoole",
+    "port": 22,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-04T01:53:00Z"
+  },
+  {
+    "id": 2,
+    "vendor": "Amp",
+    "port": 80,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-04T01:53:00Z"
+  },
+  {
+    "id": 3,
+    "vendor": "RoadRunner",
+    "port": 443,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-04T01:53:00Z"
+  },
+  {
+    "id": 4,
+    "vendor": "Ratchet",
+    "port": 21,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-05T09:15:00Z"
+  },
+  {
+    "id": 5,
+    "vendor": "Workerman",
+    "port": 25,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-05T09:16:00Z"
+  },
+  {
+    "id": 6,
+    "vendor": "Pawl",
+    "port": 53,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-05T09:17:00Z"
+  },
+  {
+    "id": 7,
+    "vendor": "OpenSwoole",
+    "port": 110,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-05T09:18:00Z"
+  },
+  {
+    "id": 8,
+    "vendor": "Symfony HttpClient",
+    "port": 143,
+    "type": "allow",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-05T09:19:00Z"
+  },
+  {
+    "id": 9,
+    "vendor": "Clue/ReactPHP-HttpProxy",
+    "port": 8080,
+    "type": "deny",
+    "from": "any",
+    "ip_address": "0.0.0.0/0",
+    "created_at": "2024-09-05T09:20:00Z"
+  }
+]

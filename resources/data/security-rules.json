@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Authentication",
+    "path": "/admin",
+    "username": "admin_user",
+    "password": "securepassword123"
+  },
+  {
+    "id": 2,
+    "name": "Client Certificate Authentication",
+    "path": "/api",
+    "username": "client_cert_user",
+    "password": "certpass456"
+  },
+  {
+    "id": 3,
+    "name": "JWT Authentication",
+    "path": "/auth",
+    "username": "jwt_user",
+    "password": "jwtsecure789"
+  },
+  {
+    "id": 4,
+    "name": "OAuth2 Proxy",
+    "path": "/oauth",
+    "username": "oauth_user",
+    "password": "oauthpass321"
+  },
+  {
+    "id": 5,
+    "name": "Restricted Access by Password",
+    "path": "/restricted",
+    "username": "restricted_user",
+    "password": "restrictedpass654"
+  }
+]

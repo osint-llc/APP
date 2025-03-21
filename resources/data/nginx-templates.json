@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Default Template",
+    "content": "server {\n    listen 80 default_server;\n    listen [::]:80 default_server;\n\n    root /var/www/html;\n    index index.html index.htm index.nginx-debian.html;\n\n    server_name _;\n\n    location / {\n        try_files $uri $uri/ =404;\n    }\n\n    error_page 500 502 503 504 /50x.html;\n    location = /50x.html {\n        root /usr/share/nginx/html;\n    }\n}\n",
+    "created_at": "2024-11-13T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Next.js Template",
+    "content": "server {\n    listen 80;\n    server_name nextjs.example.com;\n\n    location / {\n        proxy_pass http://localhost:3000;\n        proxy_set_header Host $host;\n        proxy_set_header X-Real-IP $remote_addr;\n        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n        proxy_set_header X-Forwarded-Proto $scheme;\n    }\n\n    error_page 500 502 503 504 /50x.html;\n    location = /50x.html {\n        root /usr/share/nginx/html;\n    }\n}\n",
+    "created_at": "2024-11-13T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Laravel Template",
+    "content": "server {\n    listen 80;\n    server_name laravel.example.com;\n\n    root /var/www/laravel/public;\n    index index.php index.html index.htm;\n\n    location / {\n        try_files $uri $uri/ /index.php?$query_string;\n    }\n\n    location ~ \\.php$ {\n        include snippets/fastcgi-php.conf;\n        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;\n        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;\n        include fastcgi_params;\n    }\n\n    error_page 500 502 503 504 /50x.html;\n    location = /50x.html {\n        root /usr/share/nginx/html;\n    }\n}\n",
+    "created_at": "2024-11-13T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Nuxt.js Template",
+    "content": "server {\n    listen 80;\n    server_name nuxtjs.example.com;\n\n    location / {\n        proxy_pass http://localhost:3000;\n        proxy_set_header Host $host;\n        proxy_set_header X-Real-IP $remote_addr;\n        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n        proxy_set_header X-Forwarded-Proto $scheme;\n    }\n\n    error_page 500 502 503 504 /50x.html;\n    location = /50x.html {\n        root /usr/share/nginx/html;\n    }\n}\n",
+    "created_at": "2024-11-13T00:00:00Z"
+  }
+]

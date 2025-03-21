@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "UTC"
+  },
+  {
+    "id": 2,
+    "name": "America/New_York"
+  },
+  {
+    "id": 3,
+    "name": "America/Los_Angeles"
+  },
+  {
+    "id": 4,
+    "name": "Europe/London"
+  },
+  {
+    "id": 5,
+    "name": "Europe/Paris"
+  },
+  {
+    "id": 6,
+    "name": "Asia/Tokyo"
+  },
+  {
+    "id": 7,
+    "name": "Asia/Jakarta"
+  },
+  {
+    "id": 8,
+    "name": "Australia/Sydney"
+  },
+  {
+    "id": 9,
+    "name": "Africa/Johannesburg"
+  },
+  {
+    "id": 10,
+    "name": "America/Sao_Paulo"
+  },
+  {
+    "id": 11,
+    "name": "Asia/Dubai"
+  },
+  {
+    "id": 12,
+    "name": "America/Chicago"
+  },
+  {
+    "id": 13,
+    "name": "Asia/Kolkata"
+  },
+  {
+    "id": 14,
+    "name": "Asia/Hong_Kong"
+  },
+  {
+    "id": 15,
+    "name": "Europe/Berlin"
+  },
+  {
+    "id": 16,
+    "name": "America/Denver"
+  },
+  {
+    "id": 17,
+    "name": "Pacific/Auckland"
+  },
+  {
+    "id": 18,
+    "name": "Asia/Seoul"
+  },
+  {
+    "id": 19,
+    "name": "Europe/Moscow"
+  },
+  {
+    "id": 20,
+    "name": "America/Toronto"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "user": "Alice Johnson",
+    "command": "artisan migrate",
+    "ran": "2024-11-07T12:30:00Z",
+    "duration": "2m 45s",
+    "status": "success"
+  },
+  {
+    "id": 2,
+    "user": "Bob Smith",
+    "command": "bun run build",
+    "ran": "2024-11-07T13:15:00Z",
+    "duration": "4m 10s",
+    "status": "failure"
+  },
+  {
+    "id": 3,
+    "user": "Charlie Adams",
+    "command": "artisan cache:clear",
+    "ran": "2024-11-07T14:05:00Z",
+    "duration": "1m 35s",
+    "status": "success"
+  },
+  {
+    "id": 4,
+    "user": "Dana Lee",
+    "command": "bun run test",
+    "ran": "2024-11-07T14:45:00Z",
+    "duration": "3m 50s",
+    "status": "in_progress"
+  },
+  {
+    "id": 5,
+    "user": "Evan Grant",
+    "command": "artisan route:list",
+    "ran": "2024-11-07T15:30:00Z",
+    "duration": "2m 20s",
+    "status": "success"
+  }
+]

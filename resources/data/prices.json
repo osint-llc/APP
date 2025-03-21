@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "description": "Core management features for simpler server setups.",
+    "price": {
+      "monthly": 50,
+      "yearly": 500
+    },
+    "benefits": [
+      "Single server support",
+      "Automated backups",
+      "Basic monitoring",
+      "Monthly reports",
+      "Email support",
+      "Limited server resources",
+      "Standard security updates",
+      "Scheduled maintenance",
+      "Basic troubleshooting",
+      "Access to knowledge base"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "description": "Advanced tools for managing growing server needs.",
+    "price": {
+      "monthly": 100,
+      "yearly": 1000
+    },
+    "benefits": [
+      "Up to 3 servers",
+      "Automated backups",
+      "Advanced monitoring",
+      "Weekly reports",
+      "24/7 support",
+      "Increased server resources",
+      "Enhanced security updates",
+      "Priority maintenance scheduling",
+      "Proactive issue detection",
+      "Performance analysis",
+      "Security patches",
+      "Resource scaling options"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "description": "Full-featured management for complex, high-demand servers.",
+    "price": {
+      "monthly": 200,
+      "yearly": 2000
+    },
+    "benefits": [
+      "Unlimited servers",
+      "Automated backups",
+      "Real-time monitoring",
+      "Daily reports",
+      "Priority 24/7 support",
+      "High server resources",
+      "Custom security configurations",
+      "Performance optimization",
+      "Dedicated account manager",
+      "Custom SLAs",
+      "Advanced data analytics",
+      "Load balancing",
+      "Disaster recovery planning",
+      "Compliance management"
+    ]
+  }
+]

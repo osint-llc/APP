@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "username": "jdoe",
+    "created_at": "2024-11-08T10:37:15Z"
+  },
+  {
+    "id": 2,
+    "username": "asmith",
+    "created_at": "2024-11-08T10:37:15Z"
+  },
+  {
+    "id": 3,
+    "username": "bwilliams",
+    "created_at": "2024-11-08T10:37:15Z"
+  },
+  {
+    "id": 4,
+    "username": "csanchez",
+    "created_at": "2024-11-08T10:37:15Z"
+  },
+  {
+    "id": 5,
+    "username": "dlee",
+    "created_at": "2024-11-08T10:37:15Z"
+  }
+]

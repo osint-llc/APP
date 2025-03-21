@@ -1,0 +1,92 @@
+[
+  {
+    "id": "INV-1001",
+    "customer_name": "Alice Johnson",
+    "plan": "Basic",
+    "amount": 115.0,
+    "status": "paid",
+    "due_date": "2024-11-15",
+    "paid_date": "2024-11-10"
+  },
+  {
+    "id": "INV-1002",
+    "customer_name": "Bob Smith",
+    "plan": "Pro",
+    "amount": 130.0,
+    "status": "unpaid",
+    "due_date": "2024-11-20",
+    "paid_date": null
+  },
+  {
+    "id": "INV-1003",
+    "customer_name": "Carla Gomez",
+    "plan": "Enterprise",
+    "amount": 175.0,
+    "status": "paid",
+    "due_date": "2024-11-25",
+    "paid_date": "2024-11-22"
+  },
+  {
+    "id": "INV-1004",
+    "customer_name": "David Lee",
+    "plan": "Basic",
+    "amount": 115.0,
+    "status": "unpaid",
+    "due_date": "2024-11-18",
+    "paid_date": null
+  },
+  {
+    "id": "INV-1005",
+    "customer_name": "Eva Chen",
+    "plan": "Pro",
+    "amount": 130.0,
+    "status": "paid",
+    "due_date": "2024-11-23",
+    "paid_date": "2024-11-21"
+  },
+  {
+    "id": "INV-1006",
+    "customer_name": "Frank Wilson",
+    "plan": "Basic",
+    "amount": 115.0,
+    "status": "unpaid",
+    "due_date": "2024-11-19",
+    "paid_date": null
+  },
+  {
+    "id": "INV-1007",
+    "customer_name": "Grace Kim",
+    "plan": "Enterprise",
+    "amount": 175.0,
+    "status": "paid",
+    "due_date": "2024-11-28",
+    "paid_date": "2024-11-26"
+  },
+  {
+    "id": "INV-1008",
+    "customer_name": "Henry Thomas",
+    "plan": "Pro",
+    "amount": 130.0,
+    "status": "unpaid",
+    "due_date": "2024-11-21",
+    "paid_date": null
+  },
+  {
+    "id": "INV-1009",
+    "customer_name": "Irene Lopez",
+    "plan": "Basic",
+    "amount": 115.0,
+    "status": "paid",
+    "due_date": "2024-11-17",
+    "paid_date": "2024-11-14"
+  },
+  {
+    "id": "INV-1010",
+    "customer_name": "Jack Brown",
+    "plan": "Enterprise",
+    "amount": 175.0,
+    "status": "unpaid",
+    "due_date": "2024-11-30",
+    "paid_date": null
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "command": "/usr/sbin/apache2",
+    "status": "running",
+    "user": "ployman",
+    "directory": "/home/ployman/parsinta.com/",
+    "processes": [
+      {
+        "pid": 852613,
+        "status": "running"
+      }
+    ],
+    "content": "[program:daemon-852613]\ndirectory=/home/ployman/parsinta.com/\ncommand=php8.3 artisan inertia:start-ssr --runtime=bun\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852613.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 2,
+    "command": "/usr/sbin/mysqld",
+    "status": "stopped",
+    "user": "ployman",
+    "directory": "/home/ployman/example.com/",
+    "processes": [
+      {
+        "pid": 852614,
+        "status": "stopped"
+      }
+    ],
+    "content": "[program:daemon-852614]\ndirectory=/home/ployman/example.com/\ncommand=php8.3 artisan queue:work --runtime=bun\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852614.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 3,
+    "command": "/usr/sbin/cron",
+    "status": "running",
+    "user": "ployman",
+    "directory": "/home/ployman/app.com/",
+    "processes": [
+      {
+        "pid": 852615,
+        "status": "running"
+      }
+    ],
+    "content": "[program:daemon-852615]\ndirectory=/home/ployman/app.com/\ncommand=php8.3 artisan schedule:run --runtime=bun\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852615.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 4,
+    "command": "/usr/bin/redis-server",
+    "status": "running",
+    "user": "ployman",
+    "directory": "/home/ployman/api.example.com/",
+    "processes": [
+      {
+        "pid": 852616,
+        "status": "running"
+      }
+    ],
+    "content": "[program:daemon-852616]\ndirectory=/home/ployman/api.example.com/\ncommand=php8.3 artisan serve\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852616.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 5,
+    "command": "/usr/sbin/sshd",
+    "status": "stopped",
+    "user": "ployman",
+    "directory": "/home/ployman/backup.example.com/",
+    "processes": [
+      {
+        "pid": 852617,
+        "status": "stopped"
+      }
+    ],
+    "content": "[program:daemon-852617]\ndirectory=/home/ployman/backup.example.com/\ncommand=php8.3 artisan backup:run\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852617.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 6,
+    "command": "/usr/sbin/nginx",
+    "status": "running",
+    "user": "ployman",
+    "directory": "/home/ployman/static.example.com/",
+    "processes": [
+      {
+        "pid": 852618,
+        "status": "running"
+      }
+    ],
+    "content": "[program:daemon-852618]\ndirectory=/home/ployman/static.example.com/\ncommand=php8.3 artisan serve --host=0.0.0.0\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852618.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 7,
+    "command": "/usr/bin/node",
+    "status": "stopped",
+    "user": "ployman",
+    "directory": "/home/ployman/service.example.com/",
+    "processes": [
+      {
+        "pid": 852619,
+        "status": "stopped"
+      }
+    ],
+    "content": "[program:daemon-852619]\ndirectory=/home/ployman/service.example.com/\ncommand=php8.3 artisan queue:listen\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852619.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 8,
+    "command": "/usr/sbin/dovecot",
+    "status": "running",
+    "user": "root",
+    "directory": "/home/ployman/mailer.example.com/",
+    "processes": [
+      {
+        "pid": 852620,
+        "status": "running"
+      }
+    ],
+    "content": "[program:daemon-852620]\ndirectory=/home/ployman/mailer.example.com/\ncommand=php8.3 artisan mail:send\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852620.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 9,
+    "command": "/usr/bin/memcached",
+    "status": "stopped",
+    "user": "ployman",
+    "directory": "/home/ployman/logs.example.com/",
+    "processes": [
+      {
+        "pid": 852621,
+        "status": "stopped"
+      }
+    ],
+    "content": "[program:daemon-852621]\ndirectory=/home/ployman/logs.example.com/\ncommand=php8.3 artisan logs:clear\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852621.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  },
+  {
+    "id": 10,
+    "command": "/usr/bin/memcached",
+    "status": "running",
+    "user": "root",
+    "directory": "/home/ployman/api.example.com/",
+    "processes": [
+      {
+        "pid": 852622,
+        "status": "running"
+      }
+    ],
+    "content": "[program:daemon-852622]\ndirectory=/home/ployman/api.example.com/\ncommand=php8.3 artisan serve --runtime=bun\nprocess_name=%(program_name)s_%(process_num)02d\nautostart=true\nautorestart=true\nuser=ployman\nnumprocs=1\nstartsecs=1\nredirect_stderr=true\nstdout_logfile=/home/ployman/.ployman/daemon-852622.log\nstdout_logfile_maxbytes=5MB\nstdout_logfile_backups=3\nstopwaitsecs=5\nstopsignal=SIGQUIT\nstopasgroup=true\nkillasgroup=true"
+  }
+]
